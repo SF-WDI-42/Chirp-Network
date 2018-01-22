@@ -1,0 +1,22 @@
+{
+  "name": "chirp-network",
+  "version": "1.0.0",
+  "description": "Chirp! is the newest social network that brings together all of the coolest aspects of socializing. Your mission should you choose to accept it is as follows:",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SF-WDI-42/Chirp-Network.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SF-WDI-42/Chirp-Network/issues"
+  },
+  "homepage": "https://github.com/SF-WDI-42/Chirp-Network#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
