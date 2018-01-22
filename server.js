@@ -6,7 +6,13 @@ app.set("view engine", "ejs");
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
-  res.render("index");
+  let potato = ["bird1.png",
+    "bird2.png",
+    "bird3.png",
+    "bird4.png",
+    "bird5.png",
+  ];
+  res.render("index", {sources: potato,});
 });
 
 app.listen(3000, function() {
